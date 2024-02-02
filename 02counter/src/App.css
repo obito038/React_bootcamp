@@ -40,3 +40,26 @@
 .read-the-docs {
   color: #888;
 }
+
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust the height as needed for your layout */
+  text-align: center; /* Center the text within the container */
+}
+
+.app-container h1 {
+  margin-bottom: 10px; /* Add some space between the counter and buttons */
+}
+
+.app-container .button-container {
+  display: flex;
+  flex-direction: row; /* Align buttons in a horizontal row */
+}
+.app-container button {
+  margin: 5px;
+  padding: 10px;
+}
